@@ -1,0 +1,11 @@
+name = input("Enter guest name: ")
+room_no = input("Enter room number: ")
+check_in = input("Enter check-in date: ")
+
+print("\n+----------------------------------+")
+print("|       HOTEL REGISTRATION         |")
+print("+----------------------------------+")
+print(f"| Guest Name : {name:<20} |")
+print(f"| Room Number: {room_no:<20} |")
+print(f"| Check-in   : {check_in:<20} |")
+print("+----------------------------------+")
